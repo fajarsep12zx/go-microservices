@@ -3,10 +3,10 @@ package resolver
 import (
 	"context"
 
-	"go-microservices/api/login/model"
-	coreclient "go-microservices/core/client"
-	servicemodel "go-microservices/core/proto"
-	"go-microservices/core/utils"
+	"go-microservices.org/api/login/model"
+	coreclient "go-microservices.org/core/client"
+	servicemodel "go-microservices.org/core/proto"
+	"go-microservices.org/core/utils"
 )
 
 // This file will not be regenerated automatically.

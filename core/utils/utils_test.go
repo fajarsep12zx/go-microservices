@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	core "go-microservices/core/proto"
+	core "go-microservices.org/core/proto"
 
 	cache "github.com/patrickmn/go-cache"
 )

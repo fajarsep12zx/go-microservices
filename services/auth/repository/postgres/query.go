@@ -1,7 +1,7 @@
 package postgres
 
 import (
-	"go-microservices/core/connection"
+	"go-microservices.org/core/connection"
 )
 
 // Repository ...

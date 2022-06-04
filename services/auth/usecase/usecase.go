@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"go-microservices/core/cache"
-	"go-microservices/services/auth/repository"
+	"go-microservices.org/core/cache"
+	"go-microservices.org/services/auth/repository"
 )
 
 // UseCase ...

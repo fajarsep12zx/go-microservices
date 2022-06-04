@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	coreclient "go-microservices/core/client"
-	servicemodel "go-microservices/core/proto"
+	coreclient "go-microservices.org/core/client"
+	servicemodel "go-microservices.org/core/proto"
 )
 
 // GetValidateTokenSession ...

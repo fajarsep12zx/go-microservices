@@ -6,8 +6,8 @@ package resolver
 import (
 	"context"
 
-	"go-microservices/api/login"
-	"go-microservices/api/login/model"
+	"go-microservices.org/api/login"
+	"go-microservices.org/api/login/model"
 )
 
 func (r *mutationResolver) Login(ctx context.Context, userID string, password string, refreshToken string) (*model.LoginData, error) {

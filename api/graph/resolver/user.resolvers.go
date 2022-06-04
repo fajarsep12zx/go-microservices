@@ -6,9 +6,9 @@ package resolver
 import (
 	"context"
 
-	"go-microservices/api/graph"
-	"go-microservices/api/graph/model"
-	"go-microservices/api/service"
+	"go-microservices.org/api/graph"
+	"go-microservices.org/api/graph/model"
+	"go-microservices.org/api/service"
 )
 
 func (r *userResolver) Logout(ctx context.Context, obj *model.AbstractModel) (*model.UserResponse, error) {

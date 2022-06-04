@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"go-microservices/api/graph/model"
-	servicemodel "go-microservices/core/proto"
-	"go-microservices/core/utils"
+	"go-microservices.org/api/graph/model"
+	servicemodel "go-microservices.org/core/proto"
+	"go-microservices.org/core/utils"
 
 	"github.com/99designs/gqlgen/graphql"
 )

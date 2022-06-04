@@ -1,4 +1,4 @@
-module go-microservices/core
+module go-microservices.org/core
 
 go 1.13
 

@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-microservices/api/service"
-	servicemodel "go-microservices/core/proto"
+	"go-microservices.org/api/service"
+	servicemodel "go-microservices.org/core/proto"
 )
 
 const (

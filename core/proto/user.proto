@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package proto;
-option go_package = "go-microservices/core/proto";
+option go_package = "go-microservices.org/core/proto";
 
 service User {
 	rpc Login(UserRequest) returns (UserResponse) {}

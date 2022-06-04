@@ -1,4 +1,4 @@
-module go-microservices/api
+module go-microservices.org/api
 
 go 1.13
 
@@ -10,9 +10,9 @@ require (
 	github.com/joho/godotenv v1.3.0
 	github.com/rs/cors v1.7.0
 	github.com/vektah/gqlparser/v2 v2.0.1
-	go-microservices/core v0.0.0
+	go-microservices.org/core v0.0.0
 )
 
-replace go-microservices/core => ../core
+replace go-microservices.org/core => ../core
 
 replace google.golang.org/grpc => google.golang.org/grpc v1.26.0

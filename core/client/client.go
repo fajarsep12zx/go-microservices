@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	configFile "go-microservices/core/config"
-	service "go-microservices/core/proto"
-	"go-microservices/core/server"
+	configFile "go-microservices.org/core/config"
+	service "go-microservices.org/core/proto"
+	"go-microservices.org/core/server"
 
 	"github.com/micro/go-micro/v2/client"
 	"github.com/micro/go-micro/v2/client/grpc"

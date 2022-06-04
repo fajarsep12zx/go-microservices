@@ -1,9 +1,9 @@
 package repository
 
 import (
-	core "go-microservices/core/proto"
-	"go-microservices/core/utils"
-	"go-microservices/services/user/repository/postgres"
+	core "go-microservices.org/core/proto"
+	"go-microservices.org/core/utils"
+	"go-microservices.org/services/user/repository/postgres"
 
 	cache "github.com/patrickmn/go-cache"
 )

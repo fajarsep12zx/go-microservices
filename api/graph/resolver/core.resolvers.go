@@ -6,8 +6,8 @@ package resolver
 import (
 	"context"
 
-	"go-microservices/api/graph"
-	"go-microservices/api/graph/model"
+	"go-microservices.org/api/graph"
+	"go-microservices.org/api/graph/model"
 )
 
 func (r *mutationResolver) User(ctx context.Context) (*model.AbstractModel, error) {

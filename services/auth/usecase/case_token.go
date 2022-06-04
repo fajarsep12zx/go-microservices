@@ -3,8 +3,8 @@ package usecase
 import (
 	"fmt"
 
-	auth "go-microservices/core/proto"
-	"go-microservices/core/utils"
+	auth "go-microservices.org/core/proto"
+	"go-microservices.org/core/utils"
 )
 
 const (

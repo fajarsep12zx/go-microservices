@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 
-	health "go-microservices/core/proto/health"
+	health "go-microservices.org/core/proto/health"
 )
 
 // HealthHandler ...

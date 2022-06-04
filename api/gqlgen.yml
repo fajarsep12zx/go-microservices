@@ -19,6 +19,6 @@ autobind: []
 
 models:
   User:
-    model: go-microservices/api/graph/model.AbstractModel
+    model: go-microservices.org/api/graph/model.AbstractModel
   UserMutation:
-    model: go-microservices/api/graph/model.AbstractModel
+    model: go-microservices.org/api/graph/model.AbstractModel

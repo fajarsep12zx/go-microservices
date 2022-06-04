@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"go-microservices/services/user/client"
-	"go-microservices/services/user/repository"
+	"go-microservices.org/services/user/client"
+	"go-microservices.org/services/user/repository"
 )
 
 // UseCase ...

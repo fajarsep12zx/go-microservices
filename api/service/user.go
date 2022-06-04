@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"go-microservices/api/graph/model"
-	coreclient "go-microservices/core/client"
-	servicemodel "go-microservices/core/proto"
-	"go-microservices/core/utils"
+	"go-microservices.org/api/graph/model"
+	coreclient "go-microservices.org/core/client"
+	servicemodel "go-microservices.org/core/proto"
+	"go-microservices.org/core/utils"
 )
 
 // DoLogout ...

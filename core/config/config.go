@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	common "go-microservices/core/model"
+	common "go-microservices.org/core/model"
 
 	"github.com/micro/go-micro/v2/errors"
 	"github.com/micro/go-micro/v2/util/log"

@@ -3,9 +3,9 @@ package handler
 import (
 	"sync"
 
-	"go-microservices/services/user/client"
-	"go-microservices/services/user/repository"
-	"go-microservices/services/user/usecase"
+	"go-microservices.org/services/user/client"
+	"go-microservices.org/services/user/repository"
+	"go-microservices.org/services/user/usecase"
 )
 
 var uc *usecase.UseCase

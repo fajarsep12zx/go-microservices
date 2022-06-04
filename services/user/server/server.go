@@ -4,11 +4,11 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/micro/go-micro/v2/util/log"
 
-	core "go-microservices/core/proto"
-	health "go-microservices/core/proto/health"
-	"go-microservices/core/server"
-	"go-microservices/core/utils"
-	"go-microservices/services/user/handler"
+	core "go-microservices.org/core/proto"
+	health "go-microservices.org/core/proto/health"
+	"go-microservices.org/core/server"
+	"go-microservices.org/core/utils"
+	"go-microservices.org/services/user/handler"
 )
 
 func init() {

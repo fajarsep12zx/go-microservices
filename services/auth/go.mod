@@ -1,4 +1,4 @@
-module go-microservices/services/auth
+module go-microservices.org/services/auth
 
 go 1.13
 
@@ -7,9 +7,9 @@ require (
 	github.com/micro/go-micro/v2 v2.9.1
 	github.com/micro/go-plugins/registry/kubernetes/v2 v2.9.1
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	go-microservices/core v0.0.0
+	go-microservices.org/core v0.0.0
 )
 
-replace go-microservices/core => ../../core
+replace go-microservices.org/core => ../../core
 
 replace google.golang.org/grpc => google.golang.org/grpc v1.26.0

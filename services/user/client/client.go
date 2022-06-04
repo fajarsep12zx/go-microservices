@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	coreclient "go-microservices/core/client"
-	service "go-microservices/core/proto"
+	coreclient "go-microservices.org/core/client"
+	service "go-microservices.org/core/proto"
 )
 
 // Client as GRPC client for other service

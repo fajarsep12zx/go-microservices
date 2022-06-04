@@ -3,9 +3,9 @@ package resolver
 import (
 	"context"
 
-	"go-microservices/api/graph/model"
-	"go-microservices/api/middleware"
-	servicemodel "go-microservices/core/proto"
+	"go-microservices.org/api/graph/model"
+	"go-microservices.org/api/middleware"
+	servicemodel "go-microservices.org/core/proto"
 )
 
 // This file will not be regenerated automatically.

@@ -3,7 +3,7 @@ package handler
 import (
 	"context"
 
-	auth "go-microservices/core/proto"
+	auth "go-microservices.org/core/proto"
 )
 
 // Handler ...

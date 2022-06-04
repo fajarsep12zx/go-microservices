@@ -9,11 +9,11 @@ import (
 	"syscall"
 	"time"
 
-	"go-microservices/api/graph"
-	"go-microservices/api/graph/resolver"
-	"go-microservices/api/login"
-	loginresolver "go-microservices/api/login/resolver"
-	"go-microservices/api/middleware"
+	"go-microservices.org/api/graph"
+	"go-microservices.org/api/graph/resolver"
+	"go-microservices.org/api/login"
+	loginresolver "go-microservices.org/api/login/resolver"
+	"go-microservices.org/api/middleware"
 
 	"github.com/99designs/gqlgen/handler"
 	"github.com/go-chi/chi"

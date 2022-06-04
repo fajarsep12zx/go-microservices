@@ -1,8 +1,8 @@
 package repository
 
 import (
-	core "go-microservices/core/proto"
-	"go-microservices/core/utils"
+	core "go-microservices.org/core/proto"
+	"go-microservices.org/core/utils"
 )
 
 // GetUserByID ...

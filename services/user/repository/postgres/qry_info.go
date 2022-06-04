@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-microservices/core/connection"
-	"go-microservices/core/utils"
+	"go-microservices.org/core/connection"
+	"go-microservices.org/core/utils"
 )
 
 // Repository ...

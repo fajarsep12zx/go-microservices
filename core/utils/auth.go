@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	core "go-microservices/core/proto"
+	core "go-microservices.org/core/proto"
 
 	"github.com/dgrijalva/jwt-go"
 )

@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"go-microservices/core/utils"
+	"go-microservices.org/core/utils"
 
 	gcache "github.com/patrickmn/go-cache"
 )

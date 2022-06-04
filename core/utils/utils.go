@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	configFile "go-microservices/core/config"
-	connection "go-microservices/core/connection"
+	configFile "go-microservices.org/core/config"
+	connection "go-microservices.org/core/connection"
 
 	"github.com/jinzhu/copier"
 	"github.com/micro/go-micro/v2/errors"
