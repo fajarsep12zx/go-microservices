@@ -1,4 +1,4 @@
-# DMAA Backend
+# go microservices Backend
 
 > Backend API service for DMAA using go-micro, rpc
 
