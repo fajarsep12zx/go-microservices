@@ -1,6 +1,6 @@
 module go-microservices.org/services/user
 
-go 1.13
+go 1.16
 
 require (
 	github.com/joho/godotenv v1.3.0
