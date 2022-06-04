@@ -4,8 +4,9 @@ import (
 	"testing"
 	"time"
 
+	core "go-microservices/core/proto"
+
 	cache "github.com/patrickmn/go-cache"
-	core "zebrax.id/product/dmaa/core/proto"
 )
 
 func TestStringToInt(t *testing.T) {

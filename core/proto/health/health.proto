@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package grpc.health.v1;
-option go_package = "zebrax.id/product/dmaa/core/grpc_health_v1";
+option go_package = "go-microservices/core/grpc_health_v1";
 
 message HealthCheckRequest {
   string service = 1;

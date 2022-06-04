@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	auth "zebrax.id/product/dmaa/core/proto"
-	"zebrax.id/product/dmaa/core/utils"
+	auth "go-microservices/core/proto"
+	"go-microservices/core/utils"
 )
 
 const (

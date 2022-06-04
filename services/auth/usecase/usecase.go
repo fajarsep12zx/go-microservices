@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"zebrax.id/product/dmaa/core/cache"
-	"zebrax.id/product/dmaa/services/auth/repository"
+	"go-microservices/core/cache"
+	"go-microservices/services/auth/repository"
 )
 
 // UseCase ...

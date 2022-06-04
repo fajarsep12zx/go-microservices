@@ -5,10 +5,11 @@ import (
 	"fmt"
 	"strings"
 
+	"go-microservices/api/graph/model"
+	servicemodel "go-microservices/core/proto"
+	"go-microservices/core/utils"
+
 	"github.com/99designs/gqlgen/graphql"
-	"zebrax.id/product/dmaa/api/graph/model"
-	servicemodel "zebrax.id/product/dmaa/core/proto"
-	"zebrax.id/product/dmaa/core/utils"
 )
 
 const (

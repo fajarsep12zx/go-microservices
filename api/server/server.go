@@ -9,15 +9,16 @@ import (
 	"syscall"
 	"time"
 
+	"go-microservices/api/graph"
+	"go-microservices/api/graph/resolver"
+	"go-microservices/api/login"
+	loginresolver "go-microservices/api/login/resolver"
+	"go-microservices/api/middleware"
+
 	"github.com/99designs/gqlgen/handler"
 	"github.com/go-chi/chi"
 	"github.com/gorilla/websocket"
 	"github.com/joho/godotenv"
-	"zebrax.id/product/dmaa/api/graph"
-	"zebrax.id/product/dmaa/api/graph/resolver"
-	"zebrax.id/product/dmaa/api/login"
-	loginresolver "zebrax.id/product/dmaa/api/login/resolver"
-	"zebrax.id/product/dmaa/api/middleware"
 )
 
 const defaultPort = "8080"

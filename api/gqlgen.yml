@@ -4,7 +4,7 @@
 # for detailed .gqlgen.yml documentation.
 
 schema:
-- "schema/*.graphql"
+  - "schema/*.graphql"
 exec:
   filename: graph/generated.go
   package: graph
@@ -19,6 +19,6 @@ autobind: []
 
 models:
   User:
-    model: zebrax.id/product/dmaa/api/graph/model.AbstractModel
+    model: go-microservices/api/graph/model.AbstractModel
   UserMutation:
-    model: zebrax.id/product/dmaa/api/graph/model.AbstractModel
+    model: go-microservices/api/graph/model.AbstractModel

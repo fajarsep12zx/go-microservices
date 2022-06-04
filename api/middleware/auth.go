@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"zebrax.id/product/dmaa/api/service"
-	servicemodel "zebrax.id/product/dmaa/core/proto"
+	"go-microservices/api/service"
+	servicemodel "go-microservices/core/proto"
 )
 
 const (

@@ -4,11 +4,11 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/micro/go-micro/v2/util/log"
 
-	core "zebrax.id/product/dmaa/core/proto"
-	health "zebrax.id/product/dmaa/core/proto/health"
-	"zebrax.id/product/dmaa/core/server"
-	"zebrax.id/product/dmaa/core/utils"
-	"zebrax.id/product/dmaa/services/user/handler"
+	core "go-microservices/core/proto"
+	health "go-microservices/core/proto/health"
+	"go-microservices/core/server"
+	"go-microservices/core/utils"
+	"go-microservices/services/user/handler"
 )
 
 func init() {

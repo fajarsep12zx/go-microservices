@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	coreclient "zebrax.id/product/dmaa/core/client"
-	service "zebrax.id/product/dmaa/core/proto"
+	coreclient "go-microservices/core/client"
+	service "go-microservices/core/proto"
 )
 
 // Client as GRPC client for other service

@@ -3,7 +3,7 @@ package handler
 import (
 	"context"
 
-	core "zebrax.id/product/dmaa/core/proto"
+	core "go-microservices/core/proto"
 )
 
 // Handler ...

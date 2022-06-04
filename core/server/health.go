@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 
-	health "zebrax.id/product/dmaa/core/proto/health"
+	health "go-microservices/core/proto/health"
 )
 
 // HealthHandler ...

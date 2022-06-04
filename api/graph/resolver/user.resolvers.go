@@ -6,9 +6,9 @@ package resolver
 import (
 	"context"
 
-	"zebrax.id/product/dmaa/api/graph"
-	"zebrax.id/product/dmaa/api/graph/model"
-	"zebrax.id/product/dmaa/api/service"
+	"go-microservices/api/graph"
+	"go-microservices/api/graph/model"
+	"go-microservices/api/service"
 )
 
 func (r *userResolver) Logout(ctx context.Context, obj *model.AbstractModel) (*model.UserResponse, error) {

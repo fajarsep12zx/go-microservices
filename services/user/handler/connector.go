@@ -3,9 +3,9 @@ package handler
 import (
 	"sync"
 
-	"zebrax.id/product/dmaa/services/user/client"
-	"zebrax.id/product/dmaa/services/user/repository"
-	"zebrax.id/product/dmaa/services/user/usecase"
+	"go-microservices/services/user/client"
+	"go-microservices/services/user/repository"
+	"go-microservices/services/user/usecase"
 )
 
 var uc *usecase.UseCase

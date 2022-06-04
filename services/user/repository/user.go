@@ -1,8 +1,8 @@
 package repository
 
 import (
-	core "zebrax.id/product/dmaa/core/proto"
-	"zebrax.id/product/dmaa/core/utils"
+	core "go-microservices/core/proto"
+	"go-microservices/core/utils"
 )
 
 // DoChangePassword ...

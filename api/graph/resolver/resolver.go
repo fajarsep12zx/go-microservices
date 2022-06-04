@@ -3,9 +3,9 @@ package resolver
 import (
 	"context"
 
-	"zebrax.id/product/dmaa/api/graph/model"
-	"zebrax.id/product/dmaa/api/middleware"
-	servicemodel "zebrax.id/product/dmaa/core/proto"
+	"go-microservices/api/graph/model"
+	"go-microservices/api/middleware"
+	servicemodel "go-microservices/core/proto"
 )
 
 // This file will not be regenerated automatically.

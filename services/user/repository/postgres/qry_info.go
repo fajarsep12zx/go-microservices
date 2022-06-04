@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"zebrax.id/product/dmaa/core/connection"
-	"zebrax.id/product/dmaa/core/utils"
+	"go-microservices/core/connection"
+	"go-microservices/core/utils"
 )
 
 // Repository ...

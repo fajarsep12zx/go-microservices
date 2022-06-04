@@ -4,12 +4,13 @@ import (
 	"sync"
 	"time"
 
+	configFile "go-microservices/core/config"
+	service "go-microservices/core/proto"
+	"go-microservices/core/server"
+
 	"github.com/micro/go-micro/v2/client"
 	"github.com/micro/go-micro/v2/client/grpc"
 	"github.com/micro/go-plugins/registry/kubernetes/v2"
-	configFile "zebrax.id/product/dmaa/core/config"
-	service "zebrax.id/product/dmaa/core/proto"
-	"zebrax.id/product/dmaa/core/server"
 )
 
 func newGRPCClient() client.Client {

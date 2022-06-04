@@ -1,10 +1,11 @@
 package repository
 
 import (
+	core "go-microservices/core/proto"
+	"go-microservices/core/utils"
+	"go-microservices/services/user/repository/postgres"
+
 	cache "github.com/patrickmn/go-cache"
-	core "zebrax.id/product/dmaa/core/proto"
-	"zebrax.id/product/dmaa/core/utils"
-	"zebrax.id/product/dmaa/services/user/repository/postgres"
 )
 
 // Repository interface

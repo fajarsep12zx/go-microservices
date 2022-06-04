@@ -4,8 +4,9 @@ import (
 	"os"
 	"time"
 
+	"go-microservices/core/utils"
+
 	gcache "github.com/patrickmn/go-cache"
-	"zebrax.id/product/dmaa/core/utils"
 )
 
 type goCache struct {

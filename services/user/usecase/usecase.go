@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"zebrax.id/product/dmaa/services/user/client"
-	"zebrax.id/product/dmaa/services/user/repository"
+	"go-microservices/services/user/client"
+	"go-microservices/services/user/repository"
 )
 
 // UseCase ...

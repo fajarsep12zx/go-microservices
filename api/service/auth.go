@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	coreclient "zebrax.id/product/dmaa/core/client"
-	servicemodel "zebrax.id/product/dmaa/core/proto"
+	coreclient "go-microservices/core/client"
+	servicemodel "go-microservices/core/proto"
 )
 
 // GetValidateTokenSession ...

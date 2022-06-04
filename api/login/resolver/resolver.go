@@ -3,10 +3,10 @@ package resolver
 import (
 	"context"
 
-	"zebrax.id/product/dmaa/api/login/model"
-	coreclient "zebrax.id/product/dmaa/core/client"
-	servicemodel "zebrax.id/product/dmaa/core/proto"
-	"zebrax.id/product/dmaa/core/utils"
+	"go-microservices/api/login/model"
+	coreclient "go-microservices/core/client"
+	servicemodel "go-microservices/core/proto"
+	"go-microservices/core/utils"
 )
 
 // This file will not be regenerated automatically.

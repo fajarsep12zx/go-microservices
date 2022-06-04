@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 
-	"zebrax.id/product/dmaa/api/graph/model"
-	coreclient "zebrax.id/product/dmaa/core/client"
-	servicemodel "zebrax.id/product/dmaa/core/proto"
-	"zebrax.id/product/dmaa/core/utils"
+	"go-microservices/api/graph/model"
+	coreclient "go-microservices/core/client"
+	servicemodel "go-microservices/core/proto"
+	"go-microservices/core/utils"
 )
 
 // DoLogout ...

@@ -1,4 +1,4 @@
-module zebrax.id/product/dmaa/core
+module go-microservices/core
 
 go 1.13
 

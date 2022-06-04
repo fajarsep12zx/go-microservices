@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package proto;
-option go_package = "zebrax.id/product/dmaa/core/proto";
+option go_package = "go-microservices/core/proto";
 
 service Auth {
 	rpc RequestToken(AuthRequest) returns (AuthResponse) {}

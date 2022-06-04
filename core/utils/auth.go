@@ -4,8 +4,9 @@ import (
 	"os"
 	"time"
 
+	core "go-microservices/core/proto"
+
 	"github.com/dgrijalva/jwt-go"
-	core "zebrax.id/product/dmaa/core/proto"
 )
 
 type tokenClaimType int
